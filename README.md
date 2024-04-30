@@ -14,7 +14,7 @@
 </div>
 
 
-Image captioning is one of the problems in computer vision, constituting two kinds of modalities, i.e., image and text. Given a particular image, a caption regarding it is automatically generated. One can easily leverage a CNN-based architecture to draw the numerical representation out of the image. When interacting with the text, the long-range dependencies method has to be employed. Uplifted by the recent success of LLaMA 3, this project utilizes its computational block called the LLaMA 3 Transformer block. Anyhow, in the original implementation, the Transformer block was only used as the decoder. In this project, the Transformer block is used as both the encoder and the decoder. In the encoder, before image data is funneled into the architecture, a CNN-based architecture, MobileNet-V3, is leveraged, acting similarly to the text embedding. Therefore, this architecture is dubbed MobileNet-LLaMA 3. To get knowledge on the performance of the model, the Flickr-8k dataset is used. The dataset is separated into the train, validation, and test sets in the 80-10-10 rule. Quantitatively, the performance of the model is measured via the ROGUE score, to be precise, the ROGUE-1 F-measure.
+Image captioning is one of the problems in computer vision, constituting two kinds of modalities, i.e., image and text. Given a particular image, a caption regarding it is automatically generated. One can easily leverage a CNN-based architecture to draw the numerical representation out of the image. When interacting with the text, the long-range dependencies method has to be employed. Uplifted by the recent success of LLaMA 3, this project utilizes its computational block called the LLaMA 3 Transformer block. This block comprises RMSNorm, Grouped Multi-Query Attention, Feed Forward SwiGLU, and Rotary Position Embedding. Anyhow, in the original implementation, the Transformer block was only used as the decoder. In this project, the Transformer block is used as both the encoder and the decoder. In the encoder, before image data is funneled into the architecture, a CNN-based architecture, MobileNet-V3, is leveraged, acting similarly to the text embedding. Therefore, this architecture is dubbed MobileNet-LLaMA 3. To get knowledge on the performance of the model, the Flickr-8k dataset is used. The dataset is separated into the train, validation, and test sets in the 80-10-10 rule. Quantitatively, the performance of the model is measured via the ROGUE score, to be precise, the ROGUE-1 F-measure.
 
 
 
@@ -67,6 +67,7 @@ Feel free to cite this repository:
 
 - [Introducing Meta Llama 3: The most capable openly available LLM to date](https://ai.meta.com/blog/meta-llama-3/)
 - [Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/pdf/2307.09288)
+- [Root Mean Square Layer Normalization](https://arxiv.org/pdf/1910.07467)
 - [GLU Variants Improve Transformer](https://arxiv.org/pdf/2002.05202)
 - [Roformer: Enhanced Transformer With Rotary Position Embedding](https://arxiv.org/pdf/2104.09864)
 - [GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints](https://arxiv.org/pdf/2305.13245)
