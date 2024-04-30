@@ -7,7 +7,7 @@
 
 
 <div align="center">
-    <img src="https://github.com/reshalfahsi/vqa-clip-lstm/blob/master/assets/architecture.png" alt="architecture" >
+    <img src="https://github.com/reshalfahsi/image-captioning-mobilenet-llama3/blob/master/assets/architecture.png" alt="architecture" >
     </img>
     MobileNet V3 + LLaMA 3 architecture.
     <br />
