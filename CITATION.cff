@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "Feel free to cite this repository:"
+title: "Image Captioning With MobileNet-LLaMA 3"
+authors:
+  - family-names: Al-Fahsi
+    given-names: Resha Dwika Hefni
+url: https://github.com/reshalfahsi/image-captioning-mobilenet-llama3
