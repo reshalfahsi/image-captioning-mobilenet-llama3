@@ -31,7 +31,7 @@ The MobileNet-LLaMA3 performance on the test set is quantitatively displayed by 
 
 Test Metric                   | Score
 ----------------------------- | -------------
-ROUGE-1 F-measure             | 37.35%
+ROUGE-1 F-measure             | 36.69%
 
 
 ## Loss Curve
