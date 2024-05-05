@@ -43,11 +43,11 @@ ROUGE-1 F-measure             | 36.69%
 
 The following image shows the qualitative results of MobileNet-LLaMA 3 on the test set.
 
-<p align="center"><img src="https://github.com/reshalfahsi/image-captioning-mobilenet-llama3/blob/master/assets/qualitative.png" alt="qualitative"><br/> The image-caption pairs yielded from MobileNet-LLaMA3. </p>
+<p align="center"><img src="https://github.com/reshalfahsi/image-captioning-mobilenet-llama3/blob/master/assets/qualitative.png" alt="qualitative"><br/> The image-caption pairs yielded from MobileNet-LLaMA 3. </p>
 
 The MobileNet-LLaMA 3 model is also assessed in the wild.
 
-<p align="center"><img src="https://github.com/reshalfahsi/image-captioning-mobilenet-llama3/blob/master/assets/qualitative-in-the-wild.png" alt="qualitative"><br/> The result of MobileNet-LLaMA3 in the wild. </p>
+<p align="center"><img src="https://github.com/reshalfahsi/image-captioning-mobilenet-llama3/blob/master/assets/qualitative-in-the-wild.png" alt="qualitative"><br/> The result of MobileNet-LLaMA 3 in the wild. </p>
 
 
 ## Citation
